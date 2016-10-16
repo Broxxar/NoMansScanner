@@ -62,7 +62,7 @@
 
 			sampler2D _MainTex;
 			sampler2D _DetailTex;
-			sampler2D _CameraDepthTexture;
+			sampler2D_float _CameraDepthTexture;
 			float4 _WorldSpaceScannerPos;
 			float _ScanDistance;
 			float _ScanWidth;
