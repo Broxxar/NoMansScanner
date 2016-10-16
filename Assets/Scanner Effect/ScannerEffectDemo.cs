@@ -55,6 +55,7 @@ public class ScannerEffectDemo : MonoBehaviour
 	void OnEnable()
 	{
 		_camera = GetComponent<Camera>();
+		_camera.depthTextureMode = DepthTextureMode.Depth;
 	}
 
 	[ImageEffectOpaque]
